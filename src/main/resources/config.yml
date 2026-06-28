@@ -1,0 +1,48 @@
+# ============================================
+#  MineMonster - 도토리마을
+#  블록을 캐면 아래 목록 중 몬스터가 랜덤 스폰됩니다.
+# ============================================
+
+# 시스템 활성화 여부 (게임 내 /minemonster on|off 로도 변경 가능)
+enabled: true
+
+# 블록을 캘 때 몬스터가 스폰될 확률 (0 ~ 100)
+#  100 = 캘 때마다 항상 스폰
+spawn-chance: 100.0
+
+# 블록 하나를 캘 때 스폰되는 몬스터 수
+max-mobs-per-break: 1
+
+# 스폰될 수 있는 몬스터 목록
+#  워든 / 엔더드래곤 / 엘더가디언 / 위더 / 파괴수(레비저) 등 보스는
+#  여기에 적어도 코드에서 자동으로 제외됩니다.
+monsters:
+  - ZOMBIE
+  - SKELETON
+  - CREEPER
+  - SPIDER
+  - CAVE_SPIDER
+  - ENDERMAN
+  - WITCH
+  - SLIME
+  - HUSK
+  - STRAY
+  - DROWNED
+  - ZOMBIE_VILLAGER
+  - SILVERFISH
+  - ENDERMITE
+  - PHANTOM
+  - BLAZE
+  - MAGMA_CUBE
+  - WITHER_SKELETON
+  - ZOMBIFIED_PIGLIN
+  - PIGLIN
+  - HOGLIN
+  - ZOGLIN
+  - GUARDIAN
+  - PILLAGER
+  - VINDICATOR
+  - EVOKER
+  - VEX
+  - BOGGED
+  - BREEZE

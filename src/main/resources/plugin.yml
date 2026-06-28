@@ -1,0 +1,15 @@
+name: '${projectName}'
+version: '${version}'
+main: '${group}.${packageName}.${projectName}Plugin'
+api-version: '1.21'
+author: 도토리마을
+description: 블록을 캐면 랜덤 몬스터가 스폰됩니다.
+commands:
+  minemonster:
+    description: MineMonster 시스템 ON/OFF 및 reload
+    usage: /minemonster <on|off|reload>
+    permission: minemonster.admin
+permissions:
+  minemonster.admin:
+    description: MineMonster 관리 권한
+    default: op
